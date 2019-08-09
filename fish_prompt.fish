@@ -16,7 +16,7 @@ function fish_prompt
     if test "$USER" = 'root'
         echo -n (set_color red)'# '
     end
-    echo -n (set_color red)'❯'(set_color yellow)'❯'(set_color green)'❯ '
+    echo -n (set_color red)'❯'(set_color magenta)'❯'(set_color blue)'❯ '
     set_color normal
 end
 
